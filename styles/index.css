@@ -1,13 +1,12 @@
 body{
-    padding: 0px;
-    margin: 24px;
-    
+    padding: 100px;
+    margin: 24px;    
 }
 .grid__container{
     display: grid;
     grid-gap: 24px;
     grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 4fr ;
     width: 1440px;
     height: 900px;
 
@@ -29,7 +28,7 @@ body{
 }
 
 .rec-three{
-    grid-row: 3/4;
+    grid-row: 3/5;
     grid-column: 1/2;
     width: 448px;
     height: 268px;
@@ -41,4 +40,18 @@ body{
     width: 448px;
     height: 414px;
     background: #80B918;
+}
+.rec-five{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 212px;
+    height: 122px;
+    background: #AC0;
+}
+.rec-six{
+    grid-column: 2/3;
+    grid-row:  4/5;
+    width: 212px;
+    height: 122px;
+    background: #BFD200;
 }
