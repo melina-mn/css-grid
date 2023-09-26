@@ -1,6 +1,5 @@
 body{
-    margin-top: 24px;
-    margin-left: 24px;
+    margin:24px;
     width: 1440px;
     height: 900px;
    
@@ -8,7 +7,7 @@ body{
 .grid__container{
     display: grid;
     grid-gap: 24px;
-    grid-template-rows: repeat(11 1fr);
+    grid-template-rows: repeat(13 1fr);
     grid-template-columns: repeat(7 1fr);
     width: 100%;
     height: 100vh;
@@ -60,5 +59,31 @@ body{
     grid-row: 5/7;
 }
 .rec-ten{
+    background: #D4D700;
+    grid-column: 4/6;
+    grid-row: 7/11;
+}
+.rec-elv{
+    background: #007F5F;
+    grid-row: 7/11;
+    grid-column: 6/7;
+}
 
+/* TEXT */
+
+.txt{
+    background: #9BC1BC;
+    grid-column: 1/7;
+    grid-row: 11/13;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #000;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight:200;
+    line-height: normal;
+    text-transform: uppercase;
 }
