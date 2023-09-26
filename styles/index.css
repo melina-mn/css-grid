@@ -1,16 +1,13 @@
 body{
     margin:24px;
-    width: 1440px;
-    height: 900px;
+    width: 100%;
+    height: 100hv;
    
 }
 .grid__container{
     display: grid;
     grid-gap: 24px;
-    grid-template-rows: repeat(13 1fr);
-    grid-template-columns: repeat(7 1fr);
-    width: 100%;
-    height: 100vh;
+    grid-template-rows: repeat(13, 1fr);
 }
 
 /* THE RECTANGLES */
